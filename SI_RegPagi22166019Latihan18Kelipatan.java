@@ -13,18 +13,12 @@ package si_regpagi.pkg22166019.latihan18.kelipatan;
  * Deskripsi Program    : Berisi cara menghitung kelipatan 3.5.
  */
 public class SI_RegPagi22166019Latihan18Kelipatan {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         System.out.println("========== PROGRAM KELIPATAN ==========");
         
-        //Hitung
+        //Hitung kelipatan
         for (double i = 3.5; i <= 35; i += 0.5) {
             if (i % 3.5 == 0) {
                 System.out.println(i);
             }
         }
-    }
-}
